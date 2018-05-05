@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="sjukhus.jpg" alt="Header">    
+        </div>
+        
+        <div class="topnav">
+          <a href="index.html">Start</a>
+          <a href="#" style="float:right">Logga in</a>
+        </div>
+        
+        
+               <div class="row">
+            <div class="Mcolumn">
+                <div class="card">
+                       
+                    <h4> Din patient är: Anders Andersson <br>
+                    personnummer: 1984-05-08 <br>
+                    email: anders.andersson@hackerman.com<br>    
+                    </h4>
+                    
+                        <p align="middle"> Patientens skada: Benbrott</p>
+                        <p align="middle"> Patientens referensnummer är: 69</p>
+
+
+
+                <p>                                   
+                Skadans uppkomst: mänsklig katapult träning<br>
+                Skadan skedde: imorse <br>
+                Övrig info: https://youtu.be/_rPU_t7TGqo?t=7 <br>
+                Allergier: Alvedon<br>
+                
+                <br>
+                
+               
+                
+                <input type = "button" value="Färdig med patient" onclick="buttonClick()"
+                />
+
+                <script type = "text/javascript">
+                document.getElementById("demo").innerHTML ="Ditt referensnummer är:"+ Math.floor(Math.random()*100+1);
+                    function buttonClick(){
+                        alert('du är incheckad!');
+                    }
+                    </script> 
+                </div>
+            </div>
+        </div>
+       
+        
+        
+        
+    </body>
+</html>
