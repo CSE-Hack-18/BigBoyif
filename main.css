@@ -1,0 +1,85 @@
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        .center {
+            line-height: 200px;
+            border: 3px solid red;
+            text-align: center;
+        }
+        
+        .less p {
+            line-height: normal;
+            vertical-align: center;
+            padding-bottom: 0.0;
+        }
+
+        .center p {
+            line-height: 1.5;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        /* Header/Blog Title */
+        .header {
+            padding: 20px;
+            text-align: center;
+            background: white;
+        }
+
+        .header h1 {
+            font-size: 30px;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border: 2px solid #e2e2e2;
+        }
+
+        .center{
+            text-align: center;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .Mcolumn {
+            margin: auto;
+            text-align: center;
+            max-width: 400px;
+            float: center;
+            width: 100%;
+        }
+    </style>
