@@ -3,15 +3,28 @@
 <head>
   <link rel="stylesheet" href="login.css">
 </head>    
-<body>
-<h4><p>Vi har tagit emot din information!  <p align="right">beräknad väntetid: 15 min.
-<br>Ditt referens nummer är: B452  </p>
+<body>  
+    
+    <h4> Vi har tagit emot din information <p align="right"> Din beräknade väntetid är: 15min</p>
+        <p align="right" id="demo"></p>
+        
+        
+        
+<p>                                   
 Du är välkommen till Östra Sjukhuset.<br>
 Adressen är: Journalvägen 14, 416 85 Göteborg <br>
 Se Karta <a href="https://www.google.se/maps/dir/''/%C3%B6stra+sjukhuset+adress/@57.7215376,11.9838364,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x464ff68d6f8adcfb:0x604be30d72a8bac6!2m2!1d12.0538757!2d57.72155691"> här</a> 
 <br>
-När du är framme i vänterummet, klicka vänligen på <button onclick= >Checka in</button>
+När du är framme i vänterummet, klicka vänligen på <input type = "button" value="Checka in" onclick="buttonClick()"
+/>
 <br> Då vet vi att du är redo för upprop.</p></h4>
 
+<script type = "text/javascript">
+document.getElementById("demo").innerHTML ="Ditt referensnummer är:"+ Math.floor(Math.random()*100+1);
+    function buttonClick(){
+        alert('du är incheckad!');
+    }
+    </script>  
+    
 </body>
 </html>
